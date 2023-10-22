@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #333;
+}
+.navbar-brand img {
+    height: 40px; /* Adjust the logo size as needed */
+}
+.navbar-brand a {
+    color: white;
+}
+.navbar-nav a {
+    color: white;
+}
+.hero {
+    background-image: url('./img/slide1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin-bottom: 10px; /* Add margin between list items */
+    font-size: 16px; /* Customize the font size */
+}
+.bg-overlay {
+    background-image: url('./img/logo.png');
+    background-repeat: no-repeat;
+    background-color: rgba(225,225, 225, 0.9);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
