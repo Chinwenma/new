@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Nunito , sans;
 }
 body{
     padding-top: 55px;
+
 }
 .navbar {
-    background-color: #333;
+    background-color: #D6D9E5;
 }
 .navbar-brand img {
     object-fit: cover;
@@ -17,24 +19,35 @@ body{
     color: white;
 }
 .navbar-nav a {
-    color: white;
+    color: #0A0D19;
 }
 .hero {
     background-image: url('../img/slide1.png');
     background-size: cover;
     color: white;
-    text-align: center;
+    text-align: start;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    font-family: Nunito;
+    
+
+
 }
 .over{
     position: absolute;
-    width: 100%;
-    background-color: rgba(0,0, 0, 0.4);
-    padding: 10px;
+    width: 70%;
+    background: rgba(52, 64, 124, 0.65);
+    padding: 10px 0;
+}
+.over h2{
+    font-weight: 900;
+
+}
+.over span{
+color:#E9C525 ;
 }
 ul {
     list-style: none; /* Remove default list bullets */
@@ -48,7 +61,7 @@ li {
 .bg-overlay {
     background-image: url('./img/logo.png');
     background-repeat: no-repeat;
-    background-color: rgba(225,225, 225, 0.9);
+    background-color: rgba(54, 55, 143, 0.9);
     background-size: cover;
     height: 50vh;
     background-position: center;
