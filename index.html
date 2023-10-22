@@ -4,22 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Your Website</title>
 
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark fixed-top">
         <div class="container">
+
             <a class="navbar-brand" href="#">
-                <img src="./img/logo.png" alt="Logo">
+                <img src="./img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
                 Great Achivers Club
+
             </a>
-            <div class="collapse navbar-collapse justify-content-center">
-                <ul class="navbar-nav">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -27,22 +36,25 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link " href="#">
+                            Gallery
+                        </a>
+
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link ">Contact</a>
                     </li>
                 </ul>
-            </div>
-            <div class="navbar-nav">
-                <a class=" btn btn-primary" href="#">Login</a>
+                <div class="d-flex ms-auto " role="search">
+                    <button class="btn btn-outline-success" type="submit">partner with us</button>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero img-fluid">
-        <div class="container">
+    <section class="hero ">
+        <div class="container over ">
             <h2>WELCOME TO GREAT ACHIVERS</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eligendi voluptatibus! Cum qui tempore
                 laboriosam itaque reiciendis non commodi nulla dolores dolorem, consequuntur, est voluptate nihil beatae
@@ -211,7 +223,7 @@
     </footer>
 
 
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
